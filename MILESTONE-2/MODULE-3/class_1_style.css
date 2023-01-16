@@ -1,0 +1,48 @@
+img{
+    height:100%;
+    width: 100%;
+  }
+.section{
+  margin-bottom: 5px;
+}
+.section_2{
+display: flex;
+gap:5px;
+}
+
+.section_2>div{
+  flex: 1;
+}
+.section_2_child{
+display: flex;
+flex-direction: column;
+gap:4px;
+}
+.section_2_child img{
+  height: 196px;
+}
+.section_3{
+  display: flex;
+  gap: 5px;
+}
+.section_3>div{
+  flex: 1;
+}
+.section_3_child{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 5px;
+}
+@media  screen and (max-width:576px) {
+    .section_2, .section_3{
+        flex-direction: column;
+    }
+.section_3_child{
+    grid-template-columns: repeat(1,1fr);
+}
+}
+@media screen and (min-width:577px) {
+    .section{
+        height:400px;
+      }
+}
