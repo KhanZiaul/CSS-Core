@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="html.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Video-(4-3)</title>
+    <style>
+        h2{
+            text-align: center;
+            color: rgb(28, 197, 13);
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <b>MORE HTM AND CSS : Html form input label fieldset legend textarea submit</b>
+    <p>---------------------------------------------------------------------------------------------------------------------</p>
+
+    <nav>
+        <ul>
+            <li> <a href="class4.html">CLASS FOUR</a></li>
+            <li>  <a href="class5.html">CLASS FIVE</a></li>
+        </ul>
+       </nav> 
+
+    <h2>WELCOME TO MY WEBSITE</h2>
+    <form>
+        <label for="name">YOUR NAME
+        <input type="text" id="name" placeholder="Enter Your Name">
+    </label>
+    <label for="email">YOUR E-mail
+        <input type="email" id="email" placeholder="Enter Your E-mail">
+    </label>
+        <label for="password">YOUR PASSWORD
+        <input type="password" id="password" placeholder="Enter Your Password">
+        </label>
+        <label for="phone">YOUR PHONE NUMBER
+        <input type="number" id="phone" placeholder="Enter Your Number">
+    </label>
+    <fieldset>
+        <legend>
+            Religion
+        </legend>
+        <label for="Muslim">
+            <input type="radio" id="Muslim" name="religion">Muslim
+            </label>
+            <label for="Hindu">
+                <input type="radio" id="Hindu" name="religion">Hindu
+                </label>
+    </fieldset>
+<fieldset>
+        <legend>    
+            Married-Status
+        </legend>
+        <label for="Married">
+            <input type="checkbox" id="Married" name="religion">Married
+            </label>
+            <label for="Un-Married">
+                <input type="checkbox" id="Un-Married" name="religion">Un-Married
+                </label>
+    </fieldset>
+    <fieldset>
+        <legend>    
+            Department
+        </legend>
+        <label for="department">
+            <select name="department" id="department">
+                <option value="CSE">CSE</option>
+                <option value="PHYSICS">PHYSICS</option>
+            </select>
+            </label>
+    </fieldset>
+    <fieldset>
+        <legend>    
+            Comments
+        </legend>
+        <textarea name="" id="" cols="40" rows="6"></textarea>
+    </fieldset>
+    <input type="reset" value="clear">
+    <input type="Submit" value="Submit">
+    </form>
+</body>
+</html>
