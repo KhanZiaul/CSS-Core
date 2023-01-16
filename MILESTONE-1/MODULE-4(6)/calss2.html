@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video-(6-2)</title>
+    <style>
+     li:first-child{
+        color: blueviolet;
+     }
+     li:last-child{
+        color:purple;
+     }
+     li:nth-child(2n){
+        background-color: aqua;
+     }
+     li:nth-child(2n+1){
+        background-color: rgb(3, 58, 73);
+        color:chartreuse;
+    }
+    h2::after{
+        background-color: rgb(15, 228, 217);
+        content:'NO';
+    }
+    h2::before{
+        background-color: blueviolet;
+        content:'YES' ;   
+    }
+    </style>
+</head>
+<body>
+    <b> Pseduo : First child, nth child, pseudo element before after </b>
+     <p>----------------------------------------------------
+    ------------------------------------------------------</p>
+
+    <ul>
+     <li>batas</li>
+     <li>tatas</li>
+     <li>fatas</li>
+     <li>matas</li>
+     <li>lithas</li>
+     <li>hitas</li>
+     <li>mutas</li>
+     <li>kits</li>
+    </ul>
+   
+    <h2>This is awesome</h2>
+    <h2>This is awesome</h2>
+    <h2>This is awesome</h2>
+    <h2>This is awesome</h2>
+    <h2>This is awesome</h2>
+</body>
+</html>
