@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video-(7-7)</title>
+    <style>
+        #div1 {
+            position: absolute;
+            left: 50px;
+            width: calc(100% - 500px);
+            border: 1px solid black;
+            background-color: yellow;
+            padding: 5px;
+            text-align: center;
+            }
+     .box{
+        width:calc(100%-900px);
+        height:150px;
+        border:2px solid black;
+     }
+     #box-2{
+        /* display: none; */
+           visibility: hidden;
+     }
+     :root{
+        --primary-color:yellow;
+     }
+
+     h1{
+        color: var(--primary-color);
+     }
+
+     #heading-3{
+        border: 2px solid var(--primary-color);
+     }
+  p{
+    color: var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
+  }
+    </style>
+</head>
+<body>
+    <b>Responsive web layout : CSS Custom property and use var, calc, visibility hidden vs display none</b>
+    <p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+
+    <div  id="box-1">
+            <h2>box-1</h2>
+    </div>
+    <div class="box" id="box-2">
+            <h2>box-2</h2>
+    </div>
+    <div class="box" id="box-3">
+            <h2>box-3</h2>
+    </div>
+    <div id="div1">Some text...</div>
+    <h1 class="heading" id="heading-1">My heading-1</h1>
+    <h1 class="heading" id="heading-2">My heading-1</h1>
+    <h1 class="heading" id="heading-3">My heading-1</h1>
+    <h1 class="heading" id="heading-4">My heading-1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, culpa eligendi?</p>
+</body>
+</html>

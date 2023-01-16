@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video-(7-5)</title>
+    <style>
+    .ball{
+        height:100px;
+        width:100px;
+        position: relative;
+        top:60px;
+        transform: translate(0px);
+        transition: transform 0.3s;
+    }
+    .match:hover .ball{
+        transform: translate(505px);
+    }
+    .bat{
+        height:400px;
+        width:300px;
+        transform: translate(0px);
+        transition: transform 0.2s;
+        transform-origin: top right;
+    }
+   .match:hover .bat{
+        transform: rotate(30deg);
+    }
+    .match{
+        display: flex;
+        justify-content: space-between;
+        height: 400px;
+        width: 900px;
+        border: 2px solid black;
+    }
+    </style>
+</head>
+<body>
+     <b>Responsive web layout : Cricket match animation using transition and transform</b>
+    <p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<div class="match">
+    <div >
+         <img src="ball.png" alt="no image" class="ball">
+    </div>
+    <div>
+        <img src="bat.png" alt="no image" class="bat">
+    </div>
+</div>
+    
+</body>
+</html>
