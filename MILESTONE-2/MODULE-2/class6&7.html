@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video-(8-7)</title>
+    <style>
+    body{
+    /* border: 1px solid black; */
+    /* max-width: 50%; */
+    margin: 0 auto;
+    }
+    .ri img{
+   max-width: 100%;
+   }
+    .two_parts{
+        display: flex;
+    }
+
+    .split img{
+        width:100%
+    }
+    .two_parts .split{
+        width:50%;
+    }
+    .container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:20px;
+
+        }
+        button{
+            background-color: aqua;
+            height:30px;
+            border-radius: 2px;
+            font-weight: 500;
+        }
+        .name{
+            border-radius: 8px;
+            border:2px solid black;
+            padding: 15px;
+        }
+        .container .name img{
+            width:50%;
+        }
+    @media screen and (max-width:576px){
+        .two_parts{
+        /* flex-direction: column; */
+        flex-direction:column-reverse;
+    }
+    .name{
+        background-color: brown;
+    }
+        .container{
+            grid-template-columns: repeat(1,1fr);
+    }
+    }
+    /* medium screen */
+    @media screen and (min-width:577px) and (max-width:992px){
+            .name{
+                background-color: rgb(12, 209, 169);
+            }
+        }
+    </style>
+</head>
+<body>
+    <b>Responsive Web Layout : Seven things you need to do to make a website responsive</b>
+    <p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <section>
+        <h2>RESPONSIVE</h2>
+    </section>
+      <section class="ri">
+        <img src="tiger.jpg" alt="">
+      </section>
+      <!-- Make image Responsive inside -->
+      <h2>Two Parts</h2>
+      <section class="two_parts">
+       <div class="split"><img src="foood.jpg" alt=""></div>
+       <div class="split"><img src="tiger.jpg" alt=""></div>
+      </section>
+      <section>
+        <h2>Multi Column</h2>
+      </section>
+      <section>
+        <div class="container">
+            <div class="name">
+            <h2>Food</h2>
+            <img src="foood.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In fugit ipsam voluptatibus aperiam quasi voluptatem possimus, voluptate repellat alias enim!</p>
+            <button>order now</button>
+         </div>
+            <div class="name">
+             <h2>Food</h2> 
+            <img src="foood.jpg" alt="">
+            <p>Voluptatem eaque magnam possimus libero eligendi, consequatur minus? Voluptatibus nulla aliquam praesentium repellat eveniet veritatis excepturi architecto in id hic!</p>
+            <button>order now</button>
+         </div>
+            <div class="name">
+            <h2>Food</h2>
+            <img src="foood.jpg" alt="">
+            <p>Voluptate nemo odio eligendi modi qui in nam fugiat. Ut quod pariatur explicabo consectetur aliquam? Velit consequatur dolor recusandae commodi.</p>
+            <button>order now</button>
+         </div>
+            <div class="name">
+            <h2>Food</h2>
+            <img src="foood.jpg" alt="">
+            <p>Consequatur nam amet quidem ad, necessitatibus architecto officia iusto aut eveniet earum pariatur fuga, quod nemo debitis minima provident facilis.</p>
+            <button>order now</button>
+         </div>
+            <div class="name">
+            <h2>Food</h2>
+            <img src="foood.jpg" alt="">
+            <p>Adipisci officiis provident maiores repellendus nostrum et tempore, perferendis, dolorem doloribus labore reprehenderit dignissimos at nobis nisi, ipsum aliquam a?</p>
+            <button>order now</button>
+         </div>
+            <div class="name">
+            <h2>Food</h2>
+            <img src="foood.jpg" alt="">
+            <p>Esse delectus sapiente iure, maiores praesentium repellat labore distinctio quae quod placeat non impedit doloremque sequi ea, deserunt consequatur! Corporis.</p>
+            <button>order now</button>
+         </div>
+            <div class="name">
+            <h2>Food</h2>
+            <img src="foood.jpg" alt="">
+            <p>Inventore aut maxime sequi, quasi ratione optio reiciendis dolor libero, distinctio doloribus incidunt asperiores! Vitae provident quos labore illo aliquam.</p>
+            <button>order now</button>
+         </div>
+            <div class="name">
+            <h2>Food</h2>
+            <img src="foood.jpg" alt="">
+            <p>Autem necessitatibus neque inventore ipsa molestiae perferendis, aliquam quidem? Recusandae nesciunt et enim excepturi iste aspernatur cupiditate provident nobis culpa?</p>
+            <button>order now</button>
+            </div>
+           </div>
+         </div>
+      </section>
+    <!--Responsive-->
+    <!-- {
+         1.Viewport meta-tag.
+         2.CSS Relative Unit.
+         3.Responsive Image(Flu).
+         4.body max-width and margin auto.
+         5.Responsive split screen using flex.(2 column section)
+         6.Grid Responsive(Multi Column).
+         7.Responsive Menu(Bootstrap Responsive)....(Future)
+    }
+     -->
+</body>
+</html>

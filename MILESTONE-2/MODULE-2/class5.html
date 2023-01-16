@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video-(8-6)</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:20px;
+
+        }
+        button{
+            background-color: aqua;
+            height:30px;
+            border-radius: 2px;
+            font-weight: 500;
+        }
+        .name{
+            border-radius: 8px;
+            border:2px solid black;
+            padding: 15px;
+        }
+        img{
+            width:50%;
+        }
+        /* small screen */
+        @media screen and (max-width:576px) {
+            .name{
+                background-color: brown;
+            }
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+        }
+        /* medium screen */
+        @media screen and (min-width:577px) and (max-width:992px){
+            .name{
+                background-color: rgb(12, 209, 169);
+            }
+        }
+    </style>
+</head>
+<body>
+    <b>Responsive Web Layout : Explore Responsiveness using Media query</b>
+    <p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    
+    <div class="container">
+        <div class="name">
+        <h2>Food</h2>
+        <img src="foood.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In fugit ipsam voluptatibus aperiam quasi voluptatem possimus, voluptate repellat alias enim!</p>
+        <button>order now</button>
+     </div>
+        <div class="name">
+         <h2>Food</h2> 
+        <img src="foood.jpg" alt="">
+        <p>Voluptatem eaque magnam possimus libero eligendi, consequatur minus? Voluptatibus nulla aliquam praesentium repellat eveniet veritatis excepturi architecto in id hic!</p>
+        <button>order now</button>
+     </div>
+        <div class="name">
+        <h2>Food</h2>
+        <img src="foood.jpg" alt="">
+        <p>Voluptate nemo odio eligendi modi qui in nam fugiat. Ut quod pariatur explicabo consectetur aliquam? Velit consequatur dolor recusandae commodi.</p>
+        <button>order now</button>
+     </div>
+        <div class="name">
+        <h2>Food</h2>
+        <img src="foood.jpg" alt="">
+        <p>Consequatur nam amet quidem ad, necessitatibus architecto officia iusto aut eveniet earum pariatur fuga, quod nemo debitis minima provident facilis.</p>
+        <button>order now</button>
+     </div>
+        <div class="name">
+        <h2>Food</h2>
+        <img src="foood.jpg" alt="">
+        <p>Adipisci officiis provident maiores repellendus nostrum et tempore, perferendis, dolorem doloribus labore reprehenderit dignissimos at nobis nisi, ipsum aliquam a?</p>
+        <button>order now</button>
+     </div>
+        <div class="name">
+        <h2>Food</h2>
+        <img src="foood.jpg" alt="">
+        <p>Esse delectus sapiente iure, maiores praesentium repellat labore distinctio quae quod placeat non impedit doloremque sequi ea, deserunt consequatur! Corporis.</p>
+        <button>order now</button>
+     </div>
+        <div class="name">
+        <h2>Food</h2>
+        <img src="foood.jpg" alt="">
+        <p>Inventore aut maxime sequi, quasi ratione optio reiciendis dolor libero, distinctio doloribus incidunt asperiores! Vitae provident quos labore illo aliquam.</p>
+        <button>order now</button>
+     </div>
+        <div class="name">
+        <h2>Food</h2>
+        <img src="foood.jpg" alt="">
+        <p>Autem necessitatibus neque inventore ipsa molestiae perferendis, aliquam quidem? Recusandae nesciunt et enim excepturi iste aspernatur cupiditate provident nobis culpa?</p>
+        <button>order now</button>
+        </div>
+       </div>
+     </div>
+</body>
+</html>

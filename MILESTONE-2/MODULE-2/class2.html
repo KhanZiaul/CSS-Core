@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/70a98cd510.js" crossorigin="anonymous"></script>
+    <title>video-(8-3)</title>
+    <style>
+.log_in{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+.log_in input{
+    margin-top: 1em;
+    padding:1rem;
+}
+.log_in input[type="submit"]{
+    background-color: blueviolet;
+    font-size: 1.1em;
+    color: rgb(6, 11, 11);
+    font-weight: 900;
+}
+.log_in input[type="email"]{
+font-size: 1.1em;
+}
+.log_in input[type="password"]{
+font-size: 1.1em;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 1em;
+    color: rgb(202, 13, 79);
+    font-size: 40px;
+    font-weight: 900;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+    </style>
+</head>
+<body>
+    <b>Responsive Web Layout : Create Login Form And Flexible Nav Using Flexbox</b>
+    <p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+    <header>
+        <nav>
+             <span>
+            <a href="#">Home</a>
+             <a href="#">About</a>
+             <a href="#">Back</a>
+             </span>
+             <span>
+             <a href=""><i class="fa-solid fa-user"></i></a>
+             <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+             </span>
+        </nav>
+    </header>
+    <div class="form"> 
+    <form class="log_in">
+        <h2>Please Login</h2>
+        <input type="email" name="" id="name" placeholder="Your Email" required>
+        <input type="password" name="" id="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+     </form>
+     </div>
+</body>
+</html>
