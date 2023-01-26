@@ -1,6 +1,22 @@
+var names=['megha', 'moni', 'barai'];
+
+console.log(names);
 
 
 
+//add new items in first of an array
+
+names.unshift('khan');
+console.log(names);
+
+//pop first items from an array
+
+names.shift();
+console.log(names);
+
+var valueOfNames= names.shift();
+console.log(valueOfNames);
+console.log(names);
 
 //-------------------------------------->
 
