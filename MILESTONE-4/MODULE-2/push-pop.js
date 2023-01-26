@@ -14,4 +14,3 @@ console.log(ages);
 
 ages.pop();
 console.log(ages);
-
