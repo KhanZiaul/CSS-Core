@@ -14,3 +14,15 @@ for(var i=0; i<scores.length; i++){
     console.log(score);
 }
 
+//continue statement
+
+var fruits = ['banana', 'apple', 'jackfruit', 'mega', 'fruit'];
+
+for(var i=0; i<fruits.length; i++){
+
+    if( fruits[i] === 'mega'){
+        continue;
+    }
+
+    console.log(fruits[i]);
+}
