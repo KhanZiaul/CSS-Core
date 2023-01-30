@@ -1,8 +1,8 @@
 //problem-1
 
-function convertFeet(value){
+function convertFeet(valueInInch){
 
-let feet = (value/12);
+let feet = (valueInInch/12);
 
 return feet;
 }
