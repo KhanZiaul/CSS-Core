@@ -3,13 +3,16 @@
 function oddSum(ages){
 
 let sum = 0;
+ 
+let oddArray = [];
 for(let i=0 ; i< ages.length; i++){
     if(ages[i] %2 !=0){
-        sum=sum+ages[i];
+      oddArray.push(ages[i]);
+      sum=sum+ages[i];
     }
 
   }
-
+  console.log(oddArray);
   return sum;
 }
 
