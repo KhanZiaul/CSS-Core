@@ -6,7 +6,7 @@ function leapYear(year){
         console.log('This is leap year');
     }
     else{
-        console.log('this is not leap year');
+        console.log('This is not leap year');
     }
 }
 
