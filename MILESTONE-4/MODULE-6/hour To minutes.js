@@ -1,14 +1,26 @@
-//hour to seconds
+//hour to minutes
 
-function hourTmTs(hour){
+function hourTm(hour){
 
     let hourTmIs= hour*60;
+
+    return (hourTmIs);
+}
+
+let hourTmIs = hourTm(1);
+
+console.log(hourTmIs,' minutes');
+
+
+//hour to seconds
+
+function hourTs(hour){
 
     let hourTsIs= hour*60*60;
 
     return (hourTsIs);
 }
 
-let hourTmTsIs = hourTmTs(1);
+let hourTsIs = hourTs(1);
 
-console.log(hourTmTsIs,' seconds');
+console.log(hourTsIs,' seconds');
