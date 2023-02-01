@@ -11,3 +11,9 @@ if (song.indexOf('kala kala') !== -1){
 else{
     console.log('it is not valid');
 }
+
+// startswith -------------------->
+
+const story = 'this is nothing';
+
+console.log(story.startsWith('this'));
