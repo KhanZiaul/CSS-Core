@@ -17,3 +17,9 @@ else{
 const story = 'this is nothing';
 
 console.log(story.startsWith('this'));
+
+// endswith --------------------->
+
+const filename = 'file.pdf';
+
+console.log(filename.endsWith('.pdf'));
