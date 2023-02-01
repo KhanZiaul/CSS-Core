@@ -19,3 +19,10 @@ console.log(biodata.slice(3,5));
 console.log(biodata.substr(3,7));
 
 console.log(biodata.substring(3,5));
+
+// join ----------------------->
+
+const songs = ['This is what', 'this is this'];
+
+console.log(songs.join('.'));
+
