@@ -26,3 +26,10 @@ const songs = ['This is what', 'this is this'];
 
 console.log(songs.join('.'));
 
+// concate ---------------------->
+
+const firstName = 'what';
+
+const lastName = 'is?';
+
+console.log(firstName+ ' ' +lastName);
