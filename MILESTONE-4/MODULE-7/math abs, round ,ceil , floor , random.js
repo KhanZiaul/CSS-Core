@@ -46,3 +46,19 @@ console.log(Math.round(x));
 console.log(Math.ceil(x));
 
 console.log(Math.floor(x));
+
+// random ------------>
+
+// console.log(Math.random());
+
+// console.log(Math.random()*100);
+
+// console.log(Math.round(Math.random()*6));
+
+// by foor loop
+
+for (let i=0 ; i<=20 ; i++){
+
+    console.log(Math.round(Math.random()*6));
+}
+
