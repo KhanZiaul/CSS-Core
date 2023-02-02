@@ -3,18 +3,37 @@
 
 //reverse sentence
 
+// function sentence(value){
+
+//     let reversed = '(done).';
+//     for(let i= value.length -1; i >= 0 ; i--){
+
+//         reversed = reversed + value[i];
+
+//     }
+
+//     return reversed;
+// }
+
+// let reverseSentence = sentence('This is reverse sentence');
+
+// console.log(reverseSentence);
+
+//reverse sentence
+
 function sentence(value){
 
-    let reversed = '(done).';
-    for(let i= value.length -1; i >= 0 ; i--){
+    let words = value.split(' ');
 
-        reversed = reversed + value[i];
+    let reversed = [];
+    for(let i= words.length -1; i >= 0 ; i--){
 
+      reversed.push(words[i]);
     }
 
     return reversed;
 }
 
-let reverseSentence = sentence('This is reverse sentence');
+let reverseWords = sentence('This is reverse sentence');
 
-console.log(reverseSentence);
+console.log(reverseWords);
