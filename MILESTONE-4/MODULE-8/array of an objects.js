@@ -5,7 +5,7 @@ const phones = [
     {phoneName : 'iphone', storage : '60gb' , price : 100000 , color : 'silver'},
     {phoneName : 'walton', storage : '10gb' , price : 10000 , color : 'silver'},
     {phoneName : 'Unknown', storage : '1000gb' , price : 1000000 , color : 'silver'},
-]
+];
 
 function phonesCollections(phone){
 
