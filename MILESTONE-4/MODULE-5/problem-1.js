@@ -1,16 +1,12 @@
-function foo(){
+//problem-1
 
-    console.log('foo');
+function convertFeet(valueInInch){
+
+let feet = (valueInInch/12);
+
+return feet;
 }
 
-// foo();
+let feetIs = convertFeet(84);
 
-function poo(){
-
-    console.log('poo');
-
-    foo();
-}
-
-
-poo();
+console.log(feetIs,' feet');

@@ -1,12 +1,12 @@
-// make average
+//problem-2
 
-function average(num1,num2,num3){
+function convertKilometer(value){
 
-    let average= (num1+num2+num3)/3;
-
-    return average;
-}
-
-let averageIs=average(1,2,3);
-
-console.log(averageIs);
+    let kilometer = (value*1.60934);
+    
+    return kilometer;
+    }
+    
+    let kilometerIs = convertKilometer(2);
+    
+    console.log(kilometerIs,' km');
